@@ -15,12 +15,4 @@ entity SalesOrders {
     item: Association to Inventory;
 }
 
-// view warehouseInventoryLookUp as select from Inventory as i
-//  inner join  i.salesorder as s
-// {
-//     i.productName as ProdName
-//     i.productQty as productQty
-//     i.location
-//     .salesOrderNum
-//     s.salesOrderQty
-// }
+// Removed the View and updated the file.
