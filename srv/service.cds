@@ -11,4 +11,4 @@ service warehouseService @(path: '/WarehouseInfo') {
     action   updateStock(partNum : String, newQty : Integer) returns String;
 }
 
-// Entity Name Updated to new branch. 
+// Entity Name Updated to new branch (rebase merge option). 
