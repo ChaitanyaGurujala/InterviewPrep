@@ -2,8 +2,8 @@ using {warehouse as db} from '../db/data-model';
 
 
 service warehouseService @(path: '/WarehouseInfo') {
-    entity Inventory   as projection on db.Inventory;
-    entity SalesOrders as projection on db.SalesOrders;
+    entity Inwentoree   as projection on db.Inventory;
+    entity SalesOrderruu as projection on db.SalesOrders;
 
     @requires: 'authenticated-user'
     function lookUpStock(partNum : String)                   returns Integer;
@@ -11,4 +11,4 @@ service warehouseService @(path: '/WarehouseInfo') {
     action   updateStock(partNum : String, newQty : Integer) returns String;
 }
 
-// Test Project Updated
+// Entity Name Updated to new branch. 
