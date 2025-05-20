@@ -11,5 +11,3 @@ service warehouseService @(path: '/WarehouseInfo') {
     action   updateStock(partNum : String, newQty : Integer) returns String;
 }
 
-
-// Added some corrections to update the service.cds file
