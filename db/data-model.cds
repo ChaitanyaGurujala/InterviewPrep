@@ -15,4 +15,4 @@ entity SalesOrders {
     item: Association to Inventory;
 }
 
-// Pushing this new update directly into main branch
+// Pushing this new update directly into main branch (SOFT UPDATE)
